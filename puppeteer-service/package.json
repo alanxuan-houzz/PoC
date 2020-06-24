@@ -1,0 +1,27 @@
+{
+  "name": "puppeteer-service",
+  "version": "1.0.0",
+  "description": "puppeteer-service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/puppeteer": "^3.0.0",
+    "express": "^4.17.1",
+    "puppeteer": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.14",
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.3.0",
+    "typescript": "^3.9.5"
+  }
+}

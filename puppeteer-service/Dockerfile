@@ -1,0 +1,2 @@
+FROM buildkite/puppeteer:latest
+
