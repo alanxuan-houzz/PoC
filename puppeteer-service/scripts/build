@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+if ! npm list typescript &>/dev/null; then
+  echo "PLEASE RUN: 'npm install' first"
+  exit 1
+fi
+
+rm -rf dist
+
+npx tsc

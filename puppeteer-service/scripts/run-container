@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+PORT=${PORT:-9999}
+echo "Running container and listening on port: ${PORT}"
+docker run --name puppeteer-service --rm  -p "${PORT}":8080 puppeteer-service
